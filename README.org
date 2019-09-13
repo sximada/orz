@@ -30,6 +30,16 @@ npm -v
 #+RESULTS:
 : 6.11.3
 
+** Release
+
+#+BEGIN_SRC shell
+npm archive
+#+END_SRC
+
+#+BEGIN_SRC shell
+VERSION=`date +'v%Y%m%d.%H%M'` && hub release create -a ./dist.tar.gz -m "$VERSION" "$VERSION"
+#+END_SRC
+
 * Reference
 
 - https://codepen.io/short/pen/VyNqPa
