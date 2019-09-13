@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel src -d dist",
+    "watch": "babel src -w -d dist",
+    "serve": "browser-sync start --server --files \"dist/*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
     "@babel/core": "^7.6.0",
     "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
+    "browser-sync": "^2.26.7",
     "core-js": "^3.2.1"
   }
 }

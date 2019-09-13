@@ -1,0 +1,35 @@
+#+TITLE: orz
+
+* Usage
+
+** Setup
+
+#+BEGIN_SRC
+npm install
+#+END_SRC
+
+** Build
+
+#+BEGIN_SRC
+npm run build
+#+END_SRC
+
+** Versions
+
+#+BEGIN_SRC shell
+node -v
+#+END_SRC
+
+#+RESULTS:
+: v12.6.0
+
+#+BEGIN_SRC shell
+npm -v
+#+END_SRC
+
+#+RESULTS:
+: 6.11.3
+
+* Reference
+
+- https://codepen.io/short/pen/VyNqPa
